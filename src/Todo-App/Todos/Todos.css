@@ -1,0 +1,49 @@
+.todosContainer {
+  background-color: rgba(240, 255, 255, 0.781);
+  width: auto;
+  height: auto;
+}
+.todosContainer h1 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+section {
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.todosCard {
+  background-color: rgb(42, 42, 121);
+  color: white;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 250px;
+  width: 250px;
+}
+
+/*responsive*/
+@media (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 992px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1024px) {
+  section {
+    grid-template-columns: auto auto auto auto;
+  }
+}
